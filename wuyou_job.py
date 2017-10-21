@@ -97,7 +97,7 @@ def save_to_mysql(table_name,position,company,address,salary,release_time):
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='881021',
+        password='password',
         db='qcwy_job',
         charset='utf8'
     )
